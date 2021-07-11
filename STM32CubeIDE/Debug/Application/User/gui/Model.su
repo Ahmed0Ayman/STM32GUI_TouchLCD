@@ -1,0 +1,6 @@
+Model.cpp:10:1:Model::Model()	0	static
+Model.cpp:15:6:void Model::tick()	16	static
+Model.cpp:35:6:void Model::UpdateBlueLed(bool)	16	static
+Model.cpp:41:6:void Model::UpdateRedLed(bool)	16	static
+Model.cpp:47:6:void Model::GettoggleRedState()	0	static
+Model.cpp:52:6:void Model::GettoggleBlueState()	0	static

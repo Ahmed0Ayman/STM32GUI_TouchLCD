@@ -1,0 +1,8 @@
+Screen2Presenter.hpp:30:13:Screen2Presenter::~Screen2Presenter()	0	static
+Screen2Presenter.cpp:10:6:virtual void Screen2Presenter::activate()	0	static
+Screen2Presenter.hpp:30:13:virtual Screen2Presenter::~Screen2Presenter()	8	static
+Screen2Presenter.cpp:31:6:virtual void Screen2Presenter::UpdateToggleBlueButton(bool)	0	static
+Screen2Presenter.hpp:30:13:virtual void* Screen2Presenter::_ZThn4_N16Screen2PresenterD1Ev()	0	static
+Screen2Presenter.cpp:4:1:Screen2Presenter::Screen2Presenter(Screen2View&)	8	static
+Screen2Presenter.cpp:20:6:void Screen2Presenter::UpDateBlueLed(bool)	0	static
+Screen2Presenter.cpp:25:6:void Screen2Presenter::GetBlueLed()	0	static

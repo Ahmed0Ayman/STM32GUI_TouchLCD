@@ -1,0 +1,14 @@
+﻿  Converting images
+  Reading ./application.config
+  Converting texts and fonts
+  Creating compile items for all generated source files: ..\..\generated\fonts\src\ApplicationFontProvider.cpp;..\..\generated\fonts\src\CachedFont.cpp;..\..\generated\fonts\src\FontCache.cpp;..\..\generated\fonts\src\Font_verdana_10_4bpp_0.cpp;..\..\generated\fonts\src\Font_verdana_20_4bpp_0.cpp;..\..\generated\fonts\src\Font_verdana_40_4bpp_0.cpp;..\..\generated\fonts\src\GeneratedFont.cpp;..\..\generated\fonts\src\Kerning_verdana_10_4bpp.cpp;..\..\generated\fonts\src\Kerning_verdana_20_4bpp.cpp;..\..\generated\fonts\src\Kerning_verdana_40_4bpp.cpp;..\..\generated\fonts\src\Table_verdana_10_4bpp.cpp;..\..\generated\fonts\src\Table_verdana_20_4bpp.cpp;..\..\generated\fonts\src\Table_verdana_40_4bpp.cpp;..\..\generated\fonts\src\UnmappedDataFont.cpp;..\..\generated\images\src\BitmapDatabase.cpp;..\..\generated\images\src\image_background.cpp;..\..\generated\images\src\image_overlay.cpp;..\..\generated\images\src\__designer\image_Blue_Buttons_Round_Edge_small.cpp;..\..\generated\images\src\__designer\image_Blue_Buttons_Round_Edge_small_pressed.cpp;..\..\generated\images\src\__designer\image_Blue_Togglebars_Toggle_round_large_button_OFF.cpp;..\..\generated\images\src\__designer\image_Blue_Togglebars_Toggle_round_large_button_ON.cpp;..\..\generated\texts\src\LanguageGb.cpp;..\..\generated\texts\src\Texts.cpp;..\..\generated\texts\src\TypedTextDatabase.cpp
+  FrontendApplicationBase.cpp
+  Screen2ViewBase.cpp
+  mainBase.cpp
+  Model.cpp
+  Screen1Presenter.cpp
+  Screen1View.cpp
+  Screen2Presenter.cpp
+  Screen2View.cpp
+  main.cpp
+C:\TouchGFXProjects\MyApplication_9\TouchGFX\gui\src\model\Model.cpp(3,10): fatal error C1083: Cannot open include file: 'main.h': No such file or directory

@@ -1,0 +1,346 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "FileName": "background.png",
+            "Alpha": 255,
+            "OffsetX": 0,
+            "OffsetY": 0,
+            "Name": "tiledImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 240,
+            "Height": 320,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea1",
+            "X": 74,
+            "Y": 217,
+            "Width": 81,
+            "Height": 25,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ToggleButton",
+            "InitialStatePressed": false,
+            "Pressed": "__designer\\Blue_Togglebars_Toggle_round_large_button_ON.png",
+            "Released": "__designer\\Blue_Togglebars_Toggle_round_large_button_OFF.png",
+            "Alpha": 255,
+            "Style": "Style4",
+            "Name": "toggleRed",
+            "X": 56,
+            "Y": 250,
+            "Width": 128,
+            "Height": 38,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId2",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Style": "Style4",
+            "Name": "buttonNext",
+            "X": 35,
+            "Y": 47,
+            "Width": 170,
+            "Height": 60,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonNext"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleRed"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "REDLED_Fun"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "LEDBLUE_STATE"
+            }
+          }
+        ],
+        "Name": "Screen1",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "FileName": "overlay.png",
+            "Alpha": 255,
+            "OffsetX": 0,
+            "OffsetY": 0,
+            "Name": "tiledImage1",
+            "X": -106,
+            "Y": 0,
+            "Width": 346,
+            "Height": 320,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 247,
+              "Blue": 218
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea1",
+            "X": 74,
+            "Y": 217,
+            "Width": 91,
+            "Height": 25,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ToggleButton",
+            "InitialStatePressed": false,
+            "Pressed": "__designer\\Blue_Togglebars_Toggle_round_large_button_ON.png",
+            "Released": "__designer\\Blue_Togglebars_Toggle_round_large_button_OFF.png",
+            "Alpha": 255,
+            "Style": "Style4",
+            "Name": "toggleBlue",
+            "X": 56,
+            "Y": 251,
+            "Width": 128,
+            "Height": 38,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId4",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Style": "Style4",
+            "Name": "buttonPrevious",
+            "X": 35,
+            "Y": 47,
+            "Width": 170,
+            "Height": 60,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonPrevious"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlue"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BLUELED_Fun"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "LEDRED_STATE"
+            }
+          }
+        ],
+        "Name": "Screen2",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "TextEntries": [
+      {
+        "TextEntryId": "SingleUseId1",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId2",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId3",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId4",
+        "IsResource": false
+      }
+    ],
+    "Name": "MyApplication_9",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32F429I-DISCO.ioc --platform=m4",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4"
+  },
+  "Version": "4.17.0",
+  "CreatedBy": "4.17.0"
+}

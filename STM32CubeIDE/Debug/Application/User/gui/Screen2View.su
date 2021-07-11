@@ -1,0 +1,12 @@
+Screen.hpp:103:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:143:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:153:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+Screen2View.hpp:11:13:Screen2View::~Screen2View()	0	static
+Screen2View.cpp:13:6:virtual void Screen2View::tearDownScreen()	0	static
+Screen2View.cpp:8:6:virtual void Screen2View::setupScreen()	0	static
+Screen2View.cpp:25:6:virtual void Screen2View::LEDRED_STATE()	0	static
+Screen2View.hpp:11:13:virtual Screen2View::~Screen2View()	8	static
+Bitmap.hpp:133:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	8	static
+Screen2View.cpp:19:6:virtual void Screen2View::BLUELED_Fun()	8	static
+Screen2View.cpp:3:1:Screen2View::Screen2View()	8	static
+Screen2View.cpp:31:6:void Screen2View::SetToggleBlueButton(bool)	0	static

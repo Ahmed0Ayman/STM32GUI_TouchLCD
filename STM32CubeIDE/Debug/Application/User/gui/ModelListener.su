@@ -1,0 +1,3 @@
+ModelListener.hpp:11:13:ModelListener::~ModelListener()	0	static
+ModelListener.cpp:3:6:virtual void ModelListener::UpdateToggleRedButton(bool)	0	static
+ModelListener.hpp:11:13:virtual ModelListener::~ModelListener()	8	static
